@@ -1,0 +1,17 @@
+﻿NAME                        READY   UP-TO-DATE   AVAILABLE   AGE
+deployment.apps/flask-app   1/1     1            1           4d
+
+NAME                             READY   STATUS    RESTARTS        AGE
+pod/flashsale-rs-8ctcb           1/1     Running   2 (4m36s ago)   4d
+pod/flashsale-rs-8skzf           1/1     Running   2 (4m36s ago)   4d
+pod/flashsale-rs-clnt2           1/1     Running   2 (4m36s ago)   4d
+pod/flashsale-rs-mk42r           1/1     Running   2 (4m36s ago)   4d
+pod/flashsale-rs-x9fn6           1/1     Running   2 (4m36s ago)   4d
+pod/flask-app-59f7cdccb4-55dj5   1/1     Running   2 (4m30s ago)   4d
+pod/hello-k8s                    1/1     Running   1 (4m39s ago)   32m
+
+NAME                        TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)           AGE
+service/flashsale-svc       ClusterIP   10.111.11.37     <none>        80/TCP            4d
+service/flask-app-service   NodePort    10.110.207.204   <none>        15000:32623/TCP   4d
+service/hello-k8s           NodePort    10.100.66.6      <none>        80:31079/TCP      43m
+service/kubernetes          ClusterIP   10.96.0.1        <none>        443/TCP           4d
