@@ -1,0 +1,1 @@
+﻿{"status":"success","data":{"alerts":[{"labels":{"alertname":"HighPendingDeliveries","instance":"host.docker.internal:8000","job":"delivery_service","severity":"warning"},"annotations":{"description":"Pending deliveries are above 10 for the last 15 seconds.","summary":"High pending deliveries"},"state":"firing","activeAt":"2026-10-23T20:34:43.919052257Z","value":"8.5e+01"}]}}

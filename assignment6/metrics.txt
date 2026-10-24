@@ -1,0 +1,19 @@
+﻿
+# HELP total_deliveries Total number of deliveries
+# TYPE total_deliveries gauge
+total_deliveries 123.0
+# HELP pending_deliveries Number of pending deliveries
+# TYPE pending_deliveries gauge
+pending_deliveries 68.0
+# HELP on_the_way_deliveries Number of deliveries on the way
+# TYPE on_the_way_deliveries gauge
+on_the_way_deliveries 10.0
+# HELP average_delivery_time Average delivery time in seconds
+# TYPE average_delivery_time summary
+average_delivery_time_count 225.0
+average_delivery_time_sum 6687.339033072524
+# HELP average_delivery_time_created Average delivery time in seconds
+# TYPE average_delivery_time_created gauge
+average_delivery_time_created 1.79278767318933e+09
+
+
