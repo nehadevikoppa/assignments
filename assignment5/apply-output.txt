@@ -1,0 +1,4 @@
+﻿Building image...
+Container started: e4b0b11ae1e7
+AppArmor profile applied: ['apparmor=my-apparmor-profile']
+Container stopped

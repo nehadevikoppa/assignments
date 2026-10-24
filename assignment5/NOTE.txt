@@ -1,0 +1,1 @@
+Run on Docker Desktop for Windows. AppArmor is a Linux kernel feature not enabled in Docker Desktop, so the profile is passed to Docker (visible in HostConfig.SecurityOpt) but not enforced. On Ubuntu, load it with: sudo apparmor_parser -r /etc/apparmor.d/my-apparmor-profile

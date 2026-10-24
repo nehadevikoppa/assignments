@@ -1,0 +1,7 @@
+﻿Container started: 482708e1e267
+Attempt to read /etc/passwd: Exit Code 0, Output: root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+
+Attempt to execute /bin/bash: Exit Code 0, Output: bash ran
+
+Container stopped
