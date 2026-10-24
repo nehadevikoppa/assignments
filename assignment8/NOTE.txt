@@ -1,0 +1,1 @@
+Repo: https://github.com/nehadevikoppa/devops-sample-code | Jenkins job: HelloWorld (Freestyle), build #2 SUCCESS, runs sh hello-world.sh
